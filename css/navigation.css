@@ -1,4 +1,4 @@
-ul {
+/*ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,32 +24,27 @@ li a:hover {
 }
 
 ul {position: fixed; bottom: 0px; width: 100%;}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 5;
-  padding: 20;
-  overflow: hidden;
-  background-color: #001;
+*/
 
     body {margin: 0;}
-
 
 ul.sidenav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: #564;
   position: fixed;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
+  border: 5px dashed #426236;
 }
 
 ul.sidenav li a {
   display: block;
-  color: #000;
-  padding: 8px 16px;
+  color: #001;
+  text-align: center;
+  padding: 10px 15px;
   text-decoration: none;
 }
  
@@ -59,7 +54,7 @@ ul.sidenav li a.active {
 }
 
 ul.sidenav li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #445;
   color: white;
 }
 
