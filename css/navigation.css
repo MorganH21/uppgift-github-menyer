@@ -1,31 +1,3 @@
-/*ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border: 5px dashed #426236;
-    overflow: hidden;
-    background-color: #564;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #001;
-    text-align: center;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #445;
-}
-
-ul {position: fixed; bottom: 0px; width: 100%;}
-*/
-
     body {margin: 0;}
 
 ul.sidenav {
